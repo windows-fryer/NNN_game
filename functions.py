@@ -39,6 +39,7 @@ def hashSurface(surface):
     hash_value = hash_object.hexdigest()
     return hash_value
 
+// 🏳️‍⚧️
 def get_TransRect(hitbox,alpha, color, screen):
     s = pygame.Surface((hitbox[2], hitbox[3]))
     s.set_alpha(alpha)
